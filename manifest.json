@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Craigslist Tools",
+  "description": "This extension provides the user with some helpful Craigslist tools.",
+  "version": "1.0",
+  "content_scripts": [
+    {
+      "matches": ["https://*.craigslist.org/*"],
+      "js": ["craigslist_tools.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
