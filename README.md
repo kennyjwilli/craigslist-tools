@@ -6,4 +6,3 @@ Hackery to improve Craigslist.
 
 - Toggle to enable and disable the keyboard shortcuts
 - Groups with different cards hidden per group
-- Write in CLJS
